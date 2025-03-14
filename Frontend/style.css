@@ -1,0 +1,52 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+form{
+    min-height: 60vh;
+    width: 40vw;
+    background-image: linear-gradient(to right, rgb(251, 72, 7), rgb(68, 1, 1));
+    color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5vh;
+    border-radius: 20px;
+}
+legend{
+    font-weight: bold;
+    font-size: 2em;
+    margin-bottom: 2vh;
+    color: rgb(255, 158, 136);
+
+}
+
+form>input{
+    width: 20vw;
+    height: 5vh;
+    border-radius: 10px;
+    color:  rgb(68, 1, 1);
+    padding-left: 5px;
+}
+
+form>input:hover{
+    background-color: antiquewhite;
+    width: 22vw;
+}
+
+form>input::placeholder{
+    padding-left: 5px;
+    text-align: center;
+}
+
+button{
+    width: 10vw;
+    padding: 2px 5px;
+    font-weight: bold;
+    background-color: rgb(255, 145, 131);
+    border-radius: 5px;
+}
